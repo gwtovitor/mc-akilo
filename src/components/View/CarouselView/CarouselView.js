@@ -10,7 +10,7 @@ import video from '../../../assets/bg_video.mp4'
 export default function CarouselView() {
 	return (
 		<div className={styles.carousel}>
-			<Carousel className={styles.internalCarousel}  showStatus={false} showArrows={false} infiniteLoop showThumbs={false} >
+			<Carousel className={styles.internalCarousel}  showStatus={false}  infiniteLoop showThumbs={false} >
 				<div className={styles.wrapperItem}>
 					<img height={"400px"} src={image1} />
 				</div>

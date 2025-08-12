@@ -3,13 +3,16 @@
 	padding: 2rem;
     display: flex;
     justify-content: center;
-
+    align-items: center;
 	.internalCarousel {
 		height: 500px;
-        width: 400px;
+        justify-content: center;
         align-items: center;
+        width: 90%;
+        max-width: 400px;
 	}
 	.wrapperItem {
+        // padding: 0 2rem;
 		img {
 			height: 500px;
 		}
