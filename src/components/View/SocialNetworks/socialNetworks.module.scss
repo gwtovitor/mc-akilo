@@ -1,0 +1,27 @@
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	background-color: var(--global_bg_color);
+	padding: 1rem 0px;
+}
+.contactItem {
+	width: calc(300px - 6rem);
+	background-color: var(--global_main_color);
+	border-radius: 5rem;
+	padding: 0.5rem 3rem;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	cursor: pointer;
+	img {
+		width: 20%;
+	}
+	span {
+		font-weight: bold;
+		color: black;
+		font-family: var(--global_fonte);
+	}
+}

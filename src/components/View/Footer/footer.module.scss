@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--global_bg_color);
+    border-top: 0.2px solid rgba(255, 255, 255, 0.644);
+    padding: 1rem;
+    color: white;
+    font-family: var(--global_fonte);
+    .github{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+        img{
+            width: 20px
+        }
+    }
+}

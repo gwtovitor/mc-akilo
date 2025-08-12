@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+:root {
+	--global_fonte: 'Montserrat', sans-serif;
+	--global_fonte_weight: 400;
+    --global_main_color: rgb(223, 152, 20);
+    --global_bg_color: #1A1A1A;
+}
+.homePage {
+	margin: 0 !important;
+	padding: 0 !important;
+    max-width: 100vw;
+    overflow: hidden;
+}

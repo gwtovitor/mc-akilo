@@ -1,0 +1,12 @@
+.story{
+    padding: 2rem;
+    width: calc(100% - 4rem);
+    background-color: var(--global_bg_color);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    span{
+        font-family: var(--global_fonte);
+        color: white;
+    }
+}

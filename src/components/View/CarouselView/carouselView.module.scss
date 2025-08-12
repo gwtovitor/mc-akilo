@@ -1,0 +1,21 @@
+.carousel {
+	background-color: #1a1a1a;
+	padding: 2rem;
+    display: flex;
+    justify-content: center;
+
+	.internalCarousel {
+		height: 500px;
+        width: 400px;
+        align-items: center;
+	}
+	.wrapperItem {
+		img {
+			height: 500px;
+		}
+        video{
+            height: 500px;
+        }
+        
+	}
+}
