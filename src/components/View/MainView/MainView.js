@@ -1,6 +1,7 @@
 import styles from './mainView.module.scss';
 import videoBg from '../../../assets/bg_video.mp4';
 import logo from '../../../assets/logo.png';
+import bannerVideo from '../../../assets/banner.jpg';
 import { openInNewTab } from '../../Services/OpenInNewTab';
 export default function MainView() {
 	return (
@@ -19,7 +20,7 @@ function VideoBG() {
 	return (
 		<div className={styles.bgVideo}>
 			<div className={styles.backdrop}></div>
-			<video src={videoBg} autoPlay loop muted />
+			<video src={videoBg} autoPlay loop muted poster={bannerVideo}/>
 		</div>
 	);
 }
