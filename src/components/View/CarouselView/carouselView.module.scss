@@ -1,24 +1,53 @@
 .carousel {
-	background-color: #1a1a1a;
-	padding: 2rem;
+    background-color: #1a1a1a;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-	.internalCarousel {
-		height: 500px;
+
+    .internalCarousel {
+        height: 400px;
         justify-content: center;
         align-items: center;
         width: 90%;
         max-width: 400px;
-	}
-	.wrapperItem {
+    }
+
+    .wrapperItem {
+
         // padding: 0 2rem;
-		img {
-			height: 500px;
-		}
-        video{
-            height: 500px;
+        img {
+            height: 400px;
         }
-        
-	}
+
+        video {
+            height: 400px;
+        }
+
+    }
+}
+
+@media (min-width: 1280px) {
+    .carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .internalCarousel {
+            height: 600px;
+        }
+
+        .wrapperItem {
+
+            // padding: 0 2rem;
+            img {
+                height: 600px;
+            }
+
+            video {
+                height: 600px;
+            }
+
+        }
+    }
 }

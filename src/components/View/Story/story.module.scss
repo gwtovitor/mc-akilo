@@ -1,12 +1,26 @@
-.story{
+.story {
     padding: 2rem;
     width: calc(100% - 4rem);
     background-color: var(--global_bg_color);
     min-height: 400px;
     display: flex;
     align-items: center;
-    span{
+
+    span {
         font-family: var(--global_fonte);
         color: white;
+    }
+}
+
+@media (min-width: 1280px) {
+    .story {
+        display: flex;
+        align-items: flex-start;
+        min-height: unset;
+        padding: 4rem 2rem;
+        span {
+            font-family: var(--global_fonte);
+            font-size: 1.3rem;
+        }
     }
 }

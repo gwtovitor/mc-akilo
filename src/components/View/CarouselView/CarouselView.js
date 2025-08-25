@@ -10,18 +10,18 @@ import video from '../../../assets/bg_video.mp4'
 export default function CarouselView() {
 	return (
 		<div className={styles.carousel}>
-			<Carousel className={styles.internalCarousel}  showStatus={false}  infiniteLoop showThumbs={false} >
+			<Carousel  className={styles.internalCarousel}  showStatus={false}  infiniteLoop showThumbs={false} >
 				<div className={styles.wrapperItem}>
-					<img height={"400px"} src={image1} />
+					<img src={image1} />
 				</div>
 				<div className={styles.wrapperItem}>
-					<img height={"400px"} src={image2} />
+					<img src={image2} />
 				</div>
 				<div className={styles.wrapperItem}>
-					<img height={"400px"} src={image3} />
+					<img src={image3} />
 				</div>
 				<div className={styles.wrapperItem}>
-					<img height={"400px"} src={image4} />
+					<img src={image4} />
 				</div>
 				<div className={styles.wrapperItem}>
 					<video src={video} controls />
